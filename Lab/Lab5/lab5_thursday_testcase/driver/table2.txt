@@ -1,0 +1,5 @@
+test2
+course_name0 assign_name0 19881001 85
+course_name0 assign_name1 20190910 58
+course_name1 assign_name0 19710209 53
+course_name1 assign_name1 20030809 20

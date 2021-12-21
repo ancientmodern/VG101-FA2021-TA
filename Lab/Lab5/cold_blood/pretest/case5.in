@@ -1,0 +1,291 @@
+LOAD table9.txt
+LOAD table8.txt
+LOAD table7.txt
+LOAD table6.txt
+LOAD table5.txt
+LOAD table4.txt
+LOAD table3.txt
+LOAD table2.txt
+LOAD table1.txt
+LOAD table0.txt
+LIST
+INSERT ( course_name15 assign_name0 20191118 94939591 ) test5
+INSERT ( course_name15 assign_name1 20190302 71336153 ) test5
+INSERT ( course_name15 assign_name2 19891019 511943578 ) test5
+INSERT ( course_name16 assign_name0 19791029 -348973473 ) test5
+INSERT ( course_name16 assign_name1 19891123 -366437150 ) test5
+INSERT ( course_name16 assign_name2 20010302 196462608 ) test5
+INSERT ( course_name17 assign_name0 20060604 -220614966 ) test5
+INSERT ( course_name17 assign_name1 19920717 -438821029 ) test5
+INSERT ( course_name17 assign_name2 20130109 -250111909 ) test5
+INSERT ( course_name18 assign_name0 20140310 234874023 ) test5
+INSERT ( course_name18 assign_name1 19821013 -414281349 ) test5
+INSERT ( course_name18 assign_name2 20020910 190096776 ) test5
+INSERT ( course_name19 assign_name0 20020228 532965234 ) test5
+INSERT ( course_name19 assign_name1 19930707 178940197 ) test5
+INSERT ( course_name19 assign_name2 19831208 360359989 ) test5
+INSERT ( course_name20 assign_name0 19920719 -314128527 ) test5
+INSERT ( course_name20 assign_name1 19700212 156656945 ) test5
+INSERT ( course_name20 assign_name2 19861111 92899946 ) test5
+INSERT ( course_name21 assign_name0 20211016 86129273 ) test5
+INSERT ( course_name21 assign_name1 20010122 312815515 ) test5
+INSERT ( course_name21 assign_name2 19770305 514065048 ) test5
+INSERT ( course_name22 assign_name0 19870413 -421587071 ) test5
+INSERT ( course_name22 assign_name1 20160910 299262404 ) test5
+INSERT ( course_name22 assign_name2 19850210 -359950186 ) test5
+INSERT ( course_name23 assign_name0 20180311 -525312622 ) test5
+INSERT ( course_name23 assign_name1 19870203 -509332443 ) test5
+INSERT ( course_name23 assign_name2 19700826 -49312987 ) test5
+INSERT ( course_name24 assign_name0 19860307 -510822108 ) test5
+INSERT ( course_name24 assign_name1 19780802 326105074 ) test5
+INSERT ( course_name24 assign_name2 19870917 61926523 ) test5
+INSERT ( course_name25 assign_name0 20070625 385641141 ) test5
+INSERT ( course_name25 assign_name1 20051023 435031870 ) test5
+INSERT ( course_name25 assign_name2 20050426 205579897 ) test5
+INSERT ( course_name26 assign_name0 19720427 277062973 ) test5
+INSERT ( course_name26 assign_name1 19700712 -102815642 ) test5
+INSERT ( course_name26 assign_name2 20210604 143056020 ) test5
+INSERT ( course_name27 assign_name0 19730623 522264102 ) test5
+INSERT ( course_name27 assign_name1 19870308 21345376 ) test5
+INSERT ( course_name27 assign_name2 19800512 -127869603 ) test5
+INSERT ( course_name28 assign_name0 20011111 430931176 ) test5
+INSERT ( course_name28 assign_name1 20191229 -269814053 ) test5
+INSERT ( course_name28 assign_name2 19880826 -97869685 ) test5
+INSERT ( course_name29 assign_name0 19900502 -428188061 ) test5
+INSERT ( course_name29 assign_name1 19860209 303299536 ) test5
+INSERT ( course_name29 assign_name2 20150201 -186000992 ) test5
+UPDATE ( course course0 ) test5 ( course_name0 * )
+UPDATE ( course course1 ) test5 ( course_name1 * )
+UPDATE ( course course2 ) test5 ( course_name2 * )
+UPDATE ( course course3 ) test5 ( course_name3 * )
+UPDATE ( course course4 ) test5 ( course_name4 * )
+UPDATE ( course course5 ) test5 ( course_name5 * )
+UPDATE ( course course6 ) test5 ( course_name6 * )
+UPDATE ( course course7 ) test5 ( course_name7 * )
+UPDATE ( course course8 ) test5 ( course_name8 * )
+UPDATE ( course course9 ) test5 ( course_name9 * )
+UPDATE ( course course10 ) test5 ( course_name10 * )
+UPDATE ( course course11 ) test5 ( course_name11 * )
+UPDATE ( course course12 ) test5 ( course_name12 * )
+UPDATE ( course course13 ) test5 ( course_name13 * )
+UPDATE ( course course14 ) test5 ( course_name14 * )
+UPDATE ( course course15 ) test5 ( course_name15 * )
+UPDATE ( course course16 ) test5 ( course_name16 * )
+UPDATE ( course course17 ) test5 ( course_name17 * )
+UPDATE ( course course18 ) test5 ( course_name18 * )
+UPDATE ( course course19 ) test5 ( course_name19 * )
+UPDATE ( course course20 ) test5 ( course_name20 * )
+UPDATE ( course course21 ) test5 ( course_name21 * )
+UPDATE ( course course22 ) test5 ( course_name22 * )
+UPDATE ( course course23 ) test5 ( course_name23 * )
+UPDATE ( course course24 ) test5 ( course_name24 * )
+UPDATE ( course course25 ) test5 ( course_name25 * )
+UPDATE ( course course26 ) test5 ( course_name26 * )
+UPDATE ( course course27 ) test5 ( course_name27 * )
+UPDATE ( course course28 ) test5 ( course_name28 * )
+UPDATE ( course course29 ) test5 ( course_name29 * )
+UPDATE ( name name0 ) test5 ( * assign_name0 )
+UPDATE ( name name1 ) test5 ( * assign_name1 )
+UPDATE ( name name2 ) test5 ( * assign_name2 )
+UPDATE ( deadline 19851228 ) test5 ( course0 name0 )
+UPDATE ( difficulty 234742884 ) test5 ( course0 name0 )
+UPDATE ( deadline 19870920 ) test5 ( course0 name1 )
+UPDATE ( difficulty -460956359 ) test5 ( course0 name1 )
+UPDATE ( deadline 19940418 ) test5 ( course0 name2 )
+UPDATE ( difficulty -302033387 ) test5 ( course0 name2 )
+UPDATE ( deadline 20051007 ) test5 ( course1 name0 )
+UPDATE ( difficulty 418327460 ) test5 ( course1 name0 )
+UPDATE ( deadline 19810414 ) test5 ( course1 name1 )
+UPDATE ( difficulty 197428382 ) test5 ( course1 name1 )
+UPDATE ( deadline 20140702 ) test5 ( course1 name2 )
+UPDATE ( difficulty 371421939 ) test5 ( course1 name2 )
+UPDATE ( deadline 20161225 ) test5 ( course2 name0 )
+UPDATE ( difficulty -135565142 ) test5 ( course2 name0 )
+UPDATE ( deadline 20110117 ) test5 ( course2 name1 )
+UPDATE ( difficulty 361755184 ) test5 ( course2 name1 )
+UPDATE ( deadline 20111014 ) test5 ( course2 name2 )
+UPDATE ( difficulty -9574088 ) test5 ( course2 name2 )
+UPDATE ( deadline 20100514 ) test5 ( course3 name0 )
+UPDATE ( difficulty -363776823 ) test5 ( course3 name0 )
+UPDATE ( deadline 19721221 ) test5 ( course3 name1 )
+UPDATE ( difficulty 506387041 ) test5 ( course3 name1 )
+UPDATE ( deadline 19730927 ) test5 ( course3 name2 )
+UPDATE ( difficulty -101916365 ) test5 ( course3 name2 )
+UPDATE ( deadline 20151214 ) test5 ( course4 name0 )
+UPDATE ( difficulty -256813518 ) test5 ( course4 name0 )
+UPDATE ( deadline 20210315 ) test5 ( course4 name1 )
+UPDATE ( difficulty 6827932 ) test5 ( course4 name1 )
+UPDATE ( deadline 19960520 ) test5 ( course4 name2 )
+UPDATE ( difficulty -290483784 ) test5 ( course4 name2 )
+UPDATE ( deadline 20161214 ) test5 ( course5 name0 )
+UPDATE ( difficulty -116011334 ) test5 ( course5 name0 )
+UPDATE ( deadline 19870528 ) test5 ( course5 name1 )
+UPDATE ( difficulty -127835509 ) test5 ( course5 name1 )
+UPDATE ( deadline 19990514 ) test5 ( course5 name2 )
+UPDATE ( difficulty -36418553 ) test5 ( course5 name2 )
+UPDATE ( deadline 20180612 ) test5 ( course6 name0 )
+UPDATE ( difficulty -23957024 ) test5 ( course6 name0 )
+UPDATE ( deadline 19790422 ) test5 ( course6 name1 )
+UPDATE ( difficulty -521215526 ) test5 ( course6 name1 )
+UPDATE ( deadline 20110526 ) test5 ( course6 name2 )
+UPDATE ( difficulty 90899530 ) test5 ( course6 name2 )
+UPDATE ( deadline 19861204 ) test5 ( course7 name0 )
+UPDATE ( difficulty -364872267 ) test5 ( course7 name0 )
+UPDATE ( deadline 20180128 ) test5 ( course7 name1 )
+UPDATE ( difficulty -421999290 ) test5 ( course7 name1 )
+UPDATE ( deadline 19860211 ) test5 ( course7 name2 )
+UPDATE ( difficulty 141798715 ) test5 ( course7 name2 )
+UPDATE ( deadline 19780109 ) test5 ( course8 name0 )
+UPDATE ( difficulty -524486280 ) test5 ( course8 name0 )
+UPDATE ( deadline 20060110 ) test5 ( course8 name1 )
+UPDATE ( difficulty 170362884 ) test5 ( course8 name1 )
+UPDATE ( deadline 20060612 ) test5 ( course8 name2 )
+UPDATE ( difficulty 350683957 ) test5 ( course8 name2 )
+UPDATE ( deadline 20140629 ) test5 ( course9 name0 )
+UPDATE ( difficulty 300633290 ) test5 ( course9 name0 )
+UPDATE ( deadline 19951117 ) test5 ( course9 name1 )
+UPDATE ( difficulty -6960039 ) test5 ( course9 name1 )
+UPDATE ( deadline 19710322 ) test5 ( course9 name2 )
+UPDATE ( difficulty 60796488 ) test5 ( course9 name2 )
+UPDATE ( deadline 19960421 ) test5 ( course10 name0 )
+UPDATE ( difficulty 475088188 ) test5 ( course10 name0 )
+UPDATE ( deadline 19940213 ) test5 ( course10 name1 )
+UPDATE ( difficulty 501762957 ) test5 ( course10 name1 )
+UPDATE ( deadline 19821230 ) test5 ( course10 name2 )
+UPDATE ( difficulty -72573165 ) test5 ( course10 name2 )
+UPDATE ( deadline 20050721 ) test5 ( course11 name0 )
+UPDATE ( difficulty 82475572 ) test5 ( course11 name0 )
+UPDATE ( deadline 19800219 ) test5 ( course11 name1 )
+UPDATE ( difficulty 118260313 ) test5 ( course11 name1 )
+UPDATE ( deadline 19930426 ) test5 ( course11 name2 )
+UPDATE ( difficulty -365104142 ) test5 ( course11 name2 )
+UPDATE ( deadline 19960811 ) test5 ( course12 name0 )
+UPDATE ( difficulty 99068405 ) test5 ( course12 name0 )
+UPDATE ( deadline 20200412 ) test5 ( course12 name1 )
+UPDATE ( difficulty -275366670 ) test5 ( course12 name1 )
+UPDATE ( deadline 19911105 ) test5 ( course12 name2 )
+UPDATE ( difficulty 20740085 ) test5 ( course12 name2 )
+UPDATE ( deadline 20010212 ) test5 ( course13 name0 )
+UPDATE ( difficulty -305300672 ) test5 ( course13 name0 )
+UPDATE ( deadline 20191118 ) test5 ( course13 name1 )
+UPDATE ( difficulty -234950591 ) test5 ( course13 name1 )
+UPDATE ( deadline 20190302 ) test5 ( course13 name2 )
+UPDATE ( difficulty 94939591 ) test5 ( course13 name2 )
+UPDATE ( deadline 19891019 ) test5 ( course14 name0 )
+UPDATE ( difficulty 71336153 ) test5 ( course14 name0 )
+UPDATE ( deadline 19791029 ) test5 ( course14 name1 )
+UPDATE ( difficulty 511943578 ) test5 ( course14 name1 )
+UPDATE ( deadline 19891123 ) test5 ( course14 name2 )
+UPDATE ( difficulty -348973473 ) test5 ( course14 name2 )
+UPDATE ( deadline 20010302 ) test5 ( course15 name0 )
+UPDATE ( difficulty -366437150 ) test5 ( course15 name0 )
+UPDATE ( deadline 20060604 ) test5 ( course15 name1 )
+UPDATE ( difficulty 196462608 ) test5 ( course15 name1 )
+UPDATE ( deadline 19920717 ) test5 ( course15 name2 )
+UPDATE ( difficulty -220614966 ) test5 ( course15 name2 )
+UPDATE ( deadline 20130109 ) test5 ( course16 name0 )
+UPDATE ( difficulty -438821029 ) test5 ( course16 name0 )
+UPDATE ( deadline 20140310 ) test5 ( course16 name1 )
+UPDATE ( difficulty -250111909 ) test5 ( course16 name1 )
+UPDATE ( deadline 19821013 ) test5 ( course16 name2 )
+UPDATE ( difficulty 234874023 ) test5 ( course16 name2 )
+UPDATE ( deadline 20020910 ) test5 ( course17 name0 )
+UPDATE ( difficulty -414281349 ) test5 ( course17 name0 )
+UPDATE ( deadline 20020228 ) test5 ( course17 name1 )
+UPDATE ( difficulty 190096776 ) test5 ( course17 name1 )
+UPDATE ( deadline 19930707 ) test5 ( course17 name2 )
+UPDATE ( difficulty 532965234 ) test5 ( course17 name2 )
+UPDATE ( deadline 19831208 ) test5 ( course18 name0 )
+UPDATE ( difficulty 178940197 ) test5 ( course18 name0 )
+UPDATE ( deadline 19920719 ) test5 ( course18 name1 )
+UPDATE ( difficulty 360359989 ) test5 ( course18 name1 )
+UPDATE ( deadline 19700212 ) test5 ( course18 name2 )
+UPDATE ( difficulty -314128527 ) test5 ( course18 name2 )
+UPDATE ( deadline 19861111 ) test5 ( course19 name0 )
+UPDATE ( difficulty 156656945 ) test5 ( course19 name0 )
+UPDATE ( deadline 20211016 ) test5 ( course19 name1 )
+UPDATE ( difficulty 92899946 ) test5 ( course19 name1 )
+UPDATE ( deadline 20010122 ) test5 ( course19 name2 )
+UPDATE ( difficulty 86129273 ) test5 ( course19 name2 )
+UPDATE ( deadline 19770305 ) test5 ( course20 name0 )
+UPDATE ( difficulty 312815515 ) test5 ( course20 name0 )
+UPDATE ( deadline 19870413 ) test5 ( course20 name1 )
+UPDATE ( difficulty 514065048 ) test5 ( course20 name1 )
+UPDATE ( deadline 20160910 ) test5 ( course20 name2 )
+UPDATE ( difficulty -421587071 ) test5 ( course20 name2 )
+UPDATE ( deadline 19850210 ) test5 ( course21 name0 )
+UPDATE ( difficulty 299262404 ) test5 ( course21 name0 )
+UPDATE ( deadline 20180311 ) test5 ( course21 name1 )
+UPDATE ( difficulty -359950186 ) test5 ( course21 name1 )
+UPDATE ( deadline 19870203 ) test5 ( course21 name2 )
+UPDATE ( difficulty -525312622 ) test5 ( course21 name2 )
+UPDATE ( deadline 19700826 ) test5 ( course22 name0 )
+UPDATE ( difficulty -509332443 ) test5 ( course22 name0 )
+UPDATE ( deadline 19860307 ) test5 ( course22 name1 )
+UPDATE ( difficulty -49312987 ) test5 ( course22 name1 )
+UPDATE ( deadline 19780802 ) test5 ( course22 name2 )
+UPDATE ( difficulty -510822108 ) test5 ( course22 name2 )
+UPDATE ( deadline 19870917 ) test5 ( course23 name0 )
+UPDATE ( difficulty 326105074 ) test5 ( course23 name0 )
+UPDATE ( deadline 20070625 ) test5 ( course23 name1 )
+UPDATE ( difficulty 61926523 ) test5 ( course23 name1 )
+UPDATE ( deadline 20051023 ) test5 ( course23 name2 )
+UPDATE ( difficulty 385641141 ) test5 ( course23 name2 )
+UPDATE ( deadline 20050426 ) test5 ( course24 name0 )
+UPDATE ( difficulty 435031870 ) test5 ( course24 name0 )
+UPDATE ( deadline 19720427 ) test5 ( course24 name1 )
+UPDATE ( difficulty 205579897 ) test5 ( course24 name1 )
+UPDATE ( deadline 19700712 ) test5 ( course24 name2 )
+UPDATE ( difficulty 277062973 ) test5 ( course24 name2 )
+UPDATE ( deadline 20210604 ) test5 ( course25 name0 )
+UPDATE ( difficulty -102815642 ) test5 ( course25 name0 )
+UPDATE ( deadline 19730623 ) test5 ( course25 name1 )
+UPDATE ( difficulty 143056020 ) test5 ( course25 name1 )
+UPDATE ( deadline 19870308 ) test5 ( course25 name2 )
+UPDATE ( difficulty 522264102 ) test5 ( course25 name2 )
+UPDATE ( deadline 19800512 ) test5 ( course26 name0 )
+UPDATE ( difficulty 21345376 ) test5 ( course26 name0 )
+UPDATE ( deadline 20011111 ) test5 ( course26 name1 )
+UPDATE ( difficulty -127869603 ) test5 ( course26 name1 )
+UPDATE ( deadline 20191229 ) test5 ( course26 name2 )
+UPDATE ( difficulty 430931176 ) test5 ( course26 name2 )
+UPDATE ( deadline 19880826 ) test5 ( course27 name0 )
+UPDATE ( difficulty -269814053 ) test5 ( course27 name0 )
+UPDATE ( deadline 19900502 ) test5 ( course27 name1 )
+UPDATE ( difficulty -97869685 ) test5 ( course27 name1 )
+UPDATE ( deadline 19860209 ) test5 ( course27 name2 )
+UPDATE ( difficulty -428188061 ) test5 ( course27 name2 )
+UPDATE ( deadline 20150201 ) test5 ( course28 name0 )
+UPDATE ( difficulty 303299536 ) test5 ( course28 name0 )
+UPDATE ( deadline 19910412 ) test5 ( course28 name1 )
+UPDATE ( difficulty -186000992 ) test5 ( course28 name1 )
+UPDATE ( deadline 19930816 ) test5 ( course28 name2 )
+UPDATE ( difficulty -486979578 ) test5 ( course28 name2 )
+UPDATE ( deadline 19900615 ) test5 ( course29 name0 )
+UPDATE ( difficulty -245115195 ) test5 ( course29 name0 )
+UPDATE ( deadline 20011018 ) test5 ( course29 name1 )
+UPDATE ( difficulty 205104981 ) test5 ( course29 name1 )
+UPDATE ( deadline 19740807 ) test5 ( course29 name2 )
+UPDATE ( difficulty 109572232 ) test5 ( course29 name2 )
+DELETE test5 ( * name0 )
+DELETE test5 ( course15 * )
+DELETE test5 ( course16 * )
+DELETE test5 ( course17 * )
+DELETE test5 ( course18 * )
+DELETE test5 ( course19 * )
+DELETE test5 ( course20 * )
+DELETE test5 ( course21 * )
+DELETE test5 ( course22 * )
+DELETE test5 ( course23 * )
+DELETE test5 ( course24 * )
+DELETE test5 ( course25 * )
+DELETE test5 ( course26 * )
+DELETE test5 ( course27 * )
+DELETE test5 ( course28 * )
+DELETE test5 ( course29 * )
+SELECT test5 ( * * ) SORT difficulty LIMIT 5
+SELECT test5 ( * name1 ) SORT deadline LIMIT 6
+SELECT test5 ( * name2 ) SORT difficulty LIMIT 7
+SELECT test5 ( course2 * ) SORT difficulty LIMIT 100
+PRINT test5
+EXIT

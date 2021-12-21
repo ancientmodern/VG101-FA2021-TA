@@ -1,0 +1,5 @@
+test0
+course_name0 assign_name0 20020917 71
+course_name0 assign_name1 19980716 61
+course_name1 assign_name0 19871215 95
+course_name1 assign_name1 20121124 36

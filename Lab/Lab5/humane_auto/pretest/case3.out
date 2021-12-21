@@ -1,0 +1,135 @@
+LOAD: success
+test3
+LOAD: success
+test2
+test3
+LOAD: success
+test1
+test2
+test3
+LOAD: success
+test0
+test1
+test2
+test3
+INSERT: success
+INSERT: success
+INSERT: success
+INSERT: success
+UPDATE: update 2 records
+UPDATE: update 2 records
+UPDATE: update 2 records
+UPDATE: update 2 records
+UPDATE: update 4 records
+UPDATE: update 4 records
+UPDATE: update 1 records
+UPDATE: update 1 records
+UPDATE: update 1 records
+UPDATE: update 1 records
+UPDATE: update 1 records
+UPDATE: update 1 records
+UPDATE: update 1 records
+UPDATE: update 1 records
+DELETE: delete 4 records
+DELETE: delete 1 records
+DELETE: delete 1 records
+course1 name1 19961222 55
+course0 name1 20150615 18
+course1 name1 19961222 55
+course0 name1 20150615 18
+course1 name1 19961222 55
+test0
+Course Name Deadline Difficulty
+course1 name1 19961222 55
+course0 name1 20150615 18
+INSERT: success
+INSERT: success
+INSERT: success
+INSERT: success
+UPDATE: update 2 records
+UPDATE: update 2 records
+UPDATE: update 2 records
+UPDATE: update 2 records
+UPDATE: update 4 records
+UPDATE: update 4 records
+UPDATE: update 1 records
+UPDATE: update 1 records
+UPDATE: update 1 records
+UPDATE: update 1 records
+UPDATE: update 1 records
+UPDATE: update 1 records
+UPDATE: update 1 records
+UPDATE: update 1 records
+DELETE: delete 4 records
+DELETE: delete 1 records
+DELETE: delete 1 records
+course1 name1 20110628 68
+course0 name1 19850814 60
+course0 name1 19850814 60
+course1 name1 20110628 68
+course1 name1 20110628 68
+test1
+Course Name Deadline Difficulty
+course0 name1 19850814 60
+course1 name1 20110628 68
+INSERT: success
+INSERT: success
+INSERT: success
+INSERT: success
+UPDATE: update 2 records
+UPDATE: update 2 records
+UPDATE: update 2 records
+UPDATE: update 2 records
+UPDATE: update 4 records
+UPDATE: update 4 records
+UPDATE: update 1 records
+UPDATE: update 1 records
+UPDATE: update 1 records
+UPDATE: update 1 records
+UPDATE: update 1 records
+UPDATE: update 1 records
+UPDATE: update 1 records
+UPDATE: update 1 records
+DELETE: delete 4 records
+DELETE: delete 1 records
+DELETE: delete 1 records
+course0 name1 19900405 33
+course1 name1 19831122 11
+course1 name1 19831122 11
+course0 name1 19900405 33
+course1 name1 19831122 11
+test2
+Course Name Deadline Difficulty
+course1 name1 19831122 11
+course0 name1 19900405 33
+INSERT: success
+INSERT: success
+INSERT: success
+INSERT: success
+UPDATE: update 2 records
+UPDATE: update 2 records
+UPDATE: update 2 records
+UPDATE: update 2 records
+UPDATE: update 4 records
+UPDATE: update 4 records
+UPDATE: update 1 records
+UPDATE: update 1 records
+UPDATE: update 1 records
+UPDATE: update 1 records
+UPDATE: update 1 records
+UPDATE: update 1 records
+UPDATE: update 1 records
+UPDATE: update 1 records
+DELETE: delete 4 records
+DELETE: delete 1 records
+DELETE: delete 1 records
+course1 name1 20021112 57
+course0 name1 19721104 47
+course0 name1 19721104 47
+course1 name1 20021112 57
+course1 name1 20021112 57
+test3
+Course Name Deadline Difficulty
+course0 name1 19721104 47
+course1 name1 20021112 57
+Exit the Deadline Database! Hope you have already conquered all deadlines!

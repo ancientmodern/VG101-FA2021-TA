@@ -1,0 +1,32 @@
+LOAD table4.txt
+LOAD table3.txt
+LOAD table2.txt
+LOAD table1.txt
+LOAD table0.txt
+LIST
+INSERT ( course_name2 assign_name0 20071216 80 ) test4
+INSERT ( course_name2 assign_name1 19890409 72 ) test4
+INSERT ( course_name3 assign_name0 19890405 89 ) test4
+INSERT ( course_name3 assign_name1 20030420 52 ) test4
+UPDATE ( course course0 ) test4 ( course_name0 * )
+UPDATE ( course course1 ) test4 ( course_name1 * )
+UPDATE ( course course2 ) test4 ( course_name2 * )
+UPDATE ( course course3 ) test4 ( course_name3 * )
+UPDATE ( name name0 ) test4 ( * assign_name0 )
+UPDATE ( name name1 ) test4 ( * assign_name1 )
+UPDATE ( deadline 19890409 ) test4 ( course0 name0 )
+UPDATE ( difficulty 80 ) test4 ( course2 name0 )
+UPDATE ( deadline 19890405 ) test4 ( course0 name1 )
+UPDATE ( difficulty 72 ) test4 ( course2 name1 )
+UPDATE ( deadline 20030420 ) test4 ( course1 name0 )
+UPDATE ( difficulty 89 ) test4 ( course3 name0 )
+UPDATE ( deadline 19980713 ) test4 ( course1 name1 )
+UPDATE ( difficulty 52 ) test4 ( course3 name1 )
+DELETE test4 ( * name0 )
+DELETE test4 ( course2 * )
+DELETE test4 ( course3 * )
+SELECT test4 ( * * ) SORT difficulty LIMIT 3
+SELECT test4 ( * name1 ) SORT deadline LIMIT 2
+SELECT test4 ( course1 * ) SORT difficulty LIMIT 100
+PRINT test4
+EXIT

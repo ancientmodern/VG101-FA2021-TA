@@ -1,0 +1,51 @@
+languages:
+- language: c
+  compiler_args: gcc -O2 -Wall -Wextra -pedantic -Wno-unused-result -std=c11 -fsanitize=address -fno-omit-frame-pointer -fsanitize=undefined -o /out/database /in/database.c -lm
+  execute_file: database
+  execute_args: database
+runtime_files: driver/
+default: &default
+  time: 2s
+  memory: 512m
+  score: 10
+cases:
+- <<: *default
+  input: pretest/case0.in
+  output: pretest/case0.out
+  category: pretest
+- <<: *default
+  input: pretest/case1.in
+  output: pretest/case1.out
+  category: pretest
+- <<: *default
+  input: pretest/case2.in
+  output: pretest/case2.out
+  category: pretest
+- <<: *default
+  input: pretest/case3.in
+  output: pretest/case3.out
+  category: pretest
+- <<: *default
+  input: pretest/case4.in
+  output: pretest/case4.out
+  category: pretest
+- <<: *default
+  input: pretest/case5.in
+  output: pretest/case5.out
+  category: pretest
+- <<: *default
+  input: pretest/case6.in
+  output: pretest/case6.out
+  category: pretest
+- <<: *default
+  input: pretest/case7.in
+  output: pretest/case7.out
+  category: pretest
+- <<: *default
+  input: pretest/case8.in
+  output: pretest/case8.out
+  category: pretest
+- <<: *default
+  input: pretest/case9.in
+  output: pretest/case9.out
+  category: pretest

@@ -1,0 +1,8 @@
+LOAD table0.txt
+LIST
+AUTO base1.txt
+SELECT test0 ( * * ) SORT difficulty LIMIT 3
+SELECT test0 ( * name1 ) SORT deadline LIMIT 2
+SELECT test0 ( course1 * ) SORT difficulty LIMIT 100
+PRINT test0
+SAVE test0 result.txt

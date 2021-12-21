@@ -1,0 +1,8 @@
+INSERT ( course_name3 assign_name0 20150330 69 ) test0
+INSERT ( course_name3 assign_name1 19950426 61 ) test0
+UPDATE ( course course0 ) test0 ( course_name0 * )
+UPDATE ( course course1 ) test0 ( course_name1 * )
+UPDATE ( course course2 ) test0 ( course_name2 * )
+UPDATE ( course course3 ) test0 ( course_name3 * )
+UPDATE ( name name0 ) test0 ( * assign_name0 )
+UPDATE ( name name1 ) test0 ( * assign_name1 )

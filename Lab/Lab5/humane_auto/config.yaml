@@ -1,0 +1,31 @@
+languages:
+- language: c
+  compiler_args: gcc -O2 -Wall -Wextra -pedantic -Wno-unused-result -std=c11 -o /out/database /in/database.c -lm
+  execute_file: database
+  execute_args: database
+runtime_files: driver/
+default: &default
+  time: 1s
+  memory: 2m
+  score: 20
+cases:
+- <<: *default
+  input: pretest/case0.in
+  output: pretest/case0.out
+  category: pretest
+- <<: *default
+  input: pretest/case1.in
+  output: pretest/case1.out
+  category: pretest
+- <<: *default
+  input: pretest/case2.in
+  output: pretest/case2.out
+  category: pretest
+- <<: *default
+  input: pretest/case3.in
+  output: pretest/case3.out
+  category: pretest
+- <<: *default
+  input: pretest/case4.in
+  output: pretest/case4.out
+  category: pretest

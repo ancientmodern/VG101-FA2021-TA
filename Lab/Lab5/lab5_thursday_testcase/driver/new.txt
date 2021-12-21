@@ -1,0 +1,42 @@
+LOAD: success
+LOAD: success
+LOAD: success
+LOAD: success
+LOAD: success
+test0
+test1
+test2
+test3
+test4
+INSERT: success
+INSERT: success
+INSERT: success
+INSERT: success
+UPDATE: update 2 records
+UPDATE: update 2 records
+UPDATE: update 2 records
+UPDATE: update 2 records
+UPDATE: update 4 records
+UPDATE: update 4 records
+UPDATE: update 1 records
+UPDATE: update 1 records
+UPDATE: update 1 records
+UPDATE: update 1 records
+UPDATE: update 1 records
+UPDATE: update 1 records
+UPDATE: update 1 records
+UPDATE: update 1 records
+DELETE: delete 4 records
+DELETE: delete 1 records
+DELETE: delete 1 records
+course0 name1 20110429 61
+course1 name1 20080410 36
+course1 name1 20080410 36
+course0 name1 20110429 61
+course1 name1 20080410 36
+test0
+Course Name Deadline Difficulty
+course1 name1 20080410 36
+course0 name1 20110429 61
+SAVE: success
+Exit the Deadline Database! Hope you have already conquered all deadlines!

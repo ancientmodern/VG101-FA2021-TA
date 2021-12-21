@@ -1,0 +1,6 @@
+LOAD table4.txt
+LOAD table3.txt
+LOAD table2.txt
+LOAD table1.txt
+AUTO base2.txt
+EXIT

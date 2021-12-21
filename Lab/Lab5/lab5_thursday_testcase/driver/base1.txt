@@ -1,0 +1,8 @@
+INSERT ( course_name2 assign_name0 19920202 26 ) test0
+INSERT ( course_name2 assign_name1 19970620 50 ) test0
+INSERT ( course_name3 assign_name0 20110429 12 ) test0
+INSERT ( course_name3 assign_name1 19941202 89 ) test0
+AUTO base0.txt
+DELETE test0 ( * name0 )
+DELETE test0 ( course2 * )
+DELETE test0 ( course3 * )

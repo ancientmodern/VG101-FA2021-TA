@@ -1,0 +1,29 @@
+LOAD table1.txt
+LIST
+AUTO case0.in
+INSERT ( course_name2 assign_name0 20201220 27 ) test1
+INSERT ( course_name2 assign_name1 20060819 80 ) test1
+INSERT ( course_name3 assign_name0 19850814 94 ) test1
+INSERT ( course_name3 assign_name1 20160925 30 ) test1
+UPDATE ( course course0 ) test1 ( course_name0 * )
+UPDATE ( course course1 ) test1 ( course_name1 * )
+UPDATE ( course course2 ) test1 ( course_name2 * )
+UPDATE ( course course3 ) test1 ( course_name3 * )
+UPDATE ( name name0 ) test1 ( * assign_name0 )
+UPDATE ( name name1 ) test1 ( * assign_name1 )
+UPDATE ( deadline 20060819 ) test1 ( course0 name0 )
+UPDATE ( difficulty 27 ) test1 ( course2 name0 )
+UPDATE ( deadline 19850814 ) test1 ( course0 name1 )
+UPDATE ( difficulty 80 ) test1 ( course2 name1 )
+UPDATE ( deadline 20160925 ) test1 ( course1 name0 )
+UPDATE ( difficulty 94 ) test1 ( course3 name0 )
+UPDATE ( deadline 20110628 ) test1 ( course1 name1 )
+UPDATE ( difficulty 30 ) test1 ( course3 name1 )
+DELETE test1 ( * name0 )
+DELETE test1 ( course2 * )
+DELETE test1 ( course3 * )
+SELECT test1 ( * * ) SORT difficulty LIMIT 3
+SELECT test1 ( * name1 ) SORT deadline LIMIT 2
+SELECT test1 ( course1 * ) SORT difficulty LIMIT 100
+PRINT test1
+EXIT

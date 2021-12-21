@@ -1,0 +1,11 @@
+INSERT ( course_name2 assign_name0 19960807 21 ) test0
+INSERT ( course_name2 assign_name1 20191008 20 ) test0
+AUTO base0.txt
+UPDATE ( deadline 20191008 ) test0 ( course0 name0 )
+UPDATE ( difficulty 21 ) test0 ( course2 name0 )
+UPDATE ( deadline 20150330 ) test0 ( course0 name1 )
+UPDATE ( difficulty 20 ) test0 ( course2 name1 )
+UPDATE ( deadline 19950426 ) test0 ( course1 name0 )
+UPDATE ( difficulty 69 ) test0 ( course3 name0 )
+UPDATE ( deadline 20110309 ) test0 ( course1 name1 )
+UPDATE ( difficulty 61 ) test0 ( course3 name1 )

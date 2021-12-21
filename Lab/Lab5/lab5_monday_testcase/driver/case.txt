@@ -1,0 +1,16 @@
+LOAD table4.txt
+LOAD table3.txt
+LOAD table2.txt
+LOAD table1.txt
+LOAD table0.txt
+LIST
+AUTO base1.txt
+DELETE test0 ( * name0 )
+DELETE test0 ( course2 * )
+DELETE test0 ( course3 * )
+SELECT test0 ( * * ) SORT difficulty LIMIT 3
+SELECT test0 ( * name1 ) SORT deadline LIMIT 2
+SELECT test0 ( course1 * ) SORT difficulty LIMIT 100
+PRINT test0
+SAVE test0 result.txt
+EXIT
